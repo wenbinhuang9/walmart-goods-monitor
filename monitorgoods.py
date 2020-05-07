@@ -42,7 +42,7 @@ if __name__ == "__main__":
     urls = [url11]
 
     ## fill email to send here
-    
+
     emailtosend = ""
     while True:
         monitor(urls, emailtosend)
