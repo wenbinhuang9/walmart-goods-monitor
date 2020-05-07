@@ -2,7 +2,10 @@
 import yagmail
 
 ## https://myaccount.google.com/lesssecureapps
-yag = yagmail.SMTP("benpovertykaka@gmail.com", "Hwb687766")
+
+fromemail = ""
+password = ""
+yag = yagmail.SMTP(fromemail, password)
 
 def sendMail(mail, title, content):
     contents = [content]
