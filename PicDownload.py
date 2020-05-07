@@ -62,13 +62,9 @@ def downloadPicUlr(picUrl, filename= "" , format = "jpg"):
     except Exception as e:
         print(e)
 
-#url = "https://ci.2tyl.icu/htm_data/2003/7/3846210.html"
 
-#url = "http://seopic.699pic.com/photo/40011/0709.jpg_wh1200.jpg"
-# url ="https://www.louimg.com/i/?i=u/20200328/18531045.jpg"
-# downloadPicUlr(url, format="jpg" , filename="./")
 
-url = "https://cc.2tyl.icu/htm_data/2004/7/3897848.html"
+url = ""
 content =getTextByHeaders(url, headers)
 
 file = "/Users/ben/Downloads/movie_korea/favor_pic/zhenshi99/"
