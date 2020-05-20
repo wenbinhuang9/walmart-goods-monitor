@@ -3,7 +3,10 @@
 import yagmail
 import  os
 import sys
-yag = yagmail.SMTP("benpovertykaka@gmail.com", "Qaz!@#456")
+
+usename = ""
+pwd = ""
+yag = yagmail.SMTP(usename, pwd)
 
 
 def sendMail(mail, title, content):

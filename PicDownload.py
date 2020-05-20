@@ -64,8 +64,8 @@ def downloadPicUlr(picUrl, filename= "" , format = "jpg"):
 
 
 
-url = ""
+url = "https://c1.2tyl.icu/htm_data/2005/16/3932338.html"
 content =getTextByHeaders(url, headers)
 
-file = "/Users/ben/Downloads/movie_korea/favor_pic/zhenshi99/"
+file = "/Users/ben/Downloads/movie_korea/favor_pic/zhenshi100/"
 about_pic(content, filename = file)
